@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Global Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Saira Condensed", sans-serif;
+}
+body {
+}
+.container {
+  width: 90%;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button{
+
+}
+/* Section Styles */
+.navbar {
+  background-color: #fff;
+  border-radius: 0px 0px 60px 60px;
+}
+.menu-contant {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 150px;
+  height: 80px;
+}
+.header {
+  background: url("./assets/hero-background.png");
+  height: 700px;
+}
+
+.hero-contant{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 100%;
+}
+
+.hero-contant h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+.hero-contant p {
+  font-size: 24px;
+  max-width: 600px;
+  text-align: center;
+}
+
+.hero-btn{
+  padding: 15px 23px;
+  margin-top: 60px;
+  background-color: #ffffff26;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+
+/* Sound  */
+.sound-container{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+}
+.sound-content-title{
+  display: flex;
+  align-items: center;
+}
+.sound-btn{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+.sound-btn div{
+  background-color: #f4f4f4;
+  text-align: center;
+}
