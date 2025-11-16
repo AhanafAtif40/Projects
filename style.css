@@ -262,3 +262,174 @@ body {
 .btn:hover {
     background: #000;
 }
+
+/* sound Advantages */
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #f7efe6;
+        font-family: "Poppins", sans-serif;
+    }
+
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    h2 {
+        font-size: 36px;
+        font-weight: 700;
+        color: #232323;
+        margin-bottom: 5px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 40px;
+    }
+
+    /* --- Card Section --- */
+
+    .advantages {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        border: 2px dotted #b9ccd7;
+        padding: 20px;
+        gap: 0;
+    }
+
+    .box {
+        padding: 40px 30px;
+        text-align: left;
+        border-right: 2px dotted #b9ccd7;
+        background: #fff;
+    }
+
+    .box:last-child {
+        border-right: none;
+    }
+
+    .box.black {
+        background: #000;
+        color: white;
+    }
+
+    .icon {
+        font-size: 28px;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .desc {
+        font-size: 13px;
+        line-height: 1.6;
+        color: #555;
+    }
+
+    .black .desc {
+        color: #ddd;
+    }
+
+    /* Chose audio */
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    background: #ffffff;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 70px 20px;
+}
+
+/* Top Section */
+.section-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #111;
+    margin: 0;
+}
+
+.desc-text {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+    max-width: 400px;
+}
+
+/* --- Cards Grid --- */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Card Design */
+.card {
+    padding: 25px;
+    background: #f8fafd;
+    border-radius: 12px;
+    border: 1px solid #eef2f4;
+    transition: .3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.icon {
+    font-size: 26px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.small {
+    font-size: 13px;
+    color: #777;
+}
+
+/* Highlighted Card */
+.highlight {
+    background: #f5ede3 !important;
+    border: none;
+}
+
+/* Black Card */
+.dark {
+    background: #000 !important;
+    border: none;
+    color: #fff;
+}
+
+.dark .small {
+    color: #ccc;
+}
