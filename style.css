@@ -10,9 +10,6 @@ body {
   font-style: normal;
 }
 
-
-
-
 /* ----------------------- NAVBAR ----------------------- */
 .navbar {
     width: 100%;
@@ -299,7 +296,7 @@ body {
 /* ----- Main Grid ----- */
 .popular-container {
     display: grid;
-    grid-template-columns: 1fr; /* MOBILE = 1 card */
+    grid-template-columns: 1fr;
     gap: 20px;
     margin-top: 30px;
 }
@@ -341,10 +338,6 @@ body {
 
 
 
-
-
-
-
 /* Sound effect section */
 .sound-effect-contain {
     display: grid;
@@ -359,7 +352,7 @@ body {
     border-radius: 12px;
     padding: 15px;
     display: flex;
-    flex-direction: column; /* Mobile must be column */
+    flex-direction: column; 
     gap: 15px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
@@ -383,87 +376,6 @@ body {
 .policy {
     width: 22px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -970,18 +882,6 @@ a:hover{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 992px) {
     .sound-title {
         font-size: 30px;
@@ -1088,13 +988,7 @@ a:hover{
         width: 100%;
     }
 
-  
-
-
 }
-
-
-
 
 
 /* ----------------------- RESPONSIVE ----------------------- */
@@ -1200,14 +1094,14 @@ a:hover{
     }
 
     .catalog-contain {
-        grid-template-columns: 1fr;   /* 👉 ALL cards in single column */
+        grid-template-columns: 1fr; 
         gap: 18px;
     }
 
     .catalog-card-1,
     .catalog-card,
     .catalog-card-2 {
-        border-radius: 16px !important;   /* 👉 No weird corners */
+        border-radius: 16px !important; 
     }
 
     .catalog-title {
@@ -1227,7 +1121,7 @@ a:hover{
     .catalog-big,
     .catalog-black,
     .catalog-small {
-        grid-column: span 1; /* all become single column */
+        grid-column: span 1; 
     }
 
     .choose-header {
@@ -1348,7 +1242,7 @@ a:hover{
 
     .popular-card,
     .single-card {
-      width: 100% !important;   /* 💥 force full width */
+      width: 100% !important;  
         max-width: 100% !important; 
         box-sizing: border-box;
         display: flex;
@@ -1361,7 +1255,7 @@ a:hover{
     }
 
     .popular-image {
-       width: 100% !important;   /* 💥 image আর overflow করবে না */
+       width: 100% !important;  
         height: auto !important;
         border-radius: 12px;
         object-fit: cover;
